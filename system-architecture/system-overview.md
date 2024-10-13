@@ -1,6 +1,18 @@
 # System Overview
 
-The Shopmore E-commerce API is built using Nodejs and expressjs with postgresql for data storage and also for  robust system architecture to handle products, user carts, and payment orders effectively
+The Shopmore E-commerce API is built using Nodejs and expressjs with postgresql for data storage and also for  robust system architecture to handle products, user carts, and payment orders effectively.
+
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/system architecture.jfif" alt=""><figcaption><p>System Architecture</p></figcaption></figure>
+
+</div>
+
+
+
+
+
+Core Concepts:
 
 1. **Product Catalog:**
    * The frontend fetches product data from the backend API, which retrieves it from the database.
