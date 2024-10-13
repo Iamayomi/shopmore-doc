@@ -14,3 +14,4 @@
   * [System Overview](system-architecture/system-overview.md)
   * [Database Schema](system-architecture/database-schema.md)
   * [Third-party Integration](system-architecture/third-party-integration.md)
+* [Additional Resourses](additional-resourses.md)
