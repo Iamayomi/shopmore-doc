@@ -10,3 +10,7 @@
   * [Authorization](api-references/authorization.md)
   * [Endpoints](api-references/endpoints.md)
   * [Response code](api-references/response-code.md)
+* [System Architecture ](system-architecture/README.md)
+  * [System Overview](system-architecture/system-overview.md)
+  * [Database Schema](system-architecture/database-schema.md)
+  * [Third-party Integration](system-architecture/third-party-integration.md)
