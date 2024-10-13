@@ -47,15 +47,5 @@ Use these endpoints all response will return JSON
 
 
 
-ERROR CODES
-
-* **400 Bad Request:** The server cannot process the request due to invalid syntax or missing parameters.
-* **401 Unauthorized:** The client is not authenticated.
-* **403 Forbidden:** The client is authenticated but lacks permission to access the resource.
-* **404 Not Found:** The requested resource could not be found.
-* **500 Internal Server Error:** A generic error occurred on the server.
-
-
-
 
 
