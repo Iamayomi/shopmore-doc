@@ -17,6 +17,7 @@
   * [Third-party Integration](architecture-overview/third-party-integration.md)
 * [Advanced Topic](advanced-topic/README.md)
   * [Security](advanced-topic/security.md)
+  * [Scalability](advanced-topic/scalability.md)
 * [FAQs and Troubleshooting ](faqs-and-troubleshooting.md)
 * [Contributing](contributing.md)
 * [Glossary](glossary.md)
