@@ -1,8 +1,8 @@
 ---
-description: Architecture Overview
+description: System Overview
 ---
 
-# System Architecture&#x20;
+# &#x20;Architecture  Overview
 
 The Shopmore E-commerce API is built using Nodejs and expressjs with postgresql for data storage and also for  robust system architecture to handle products, user carts, and payment orders effectively.
 

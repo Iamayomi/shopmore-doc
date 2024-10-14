@@ -8,8 +8,8 @@
 [api-references](../api-references/)
 {% endcontent-ref %}
 
-{% content-ref url="../system-architecture/" %}
-[system-architecture](../system-architecture/)
+{% content-ref url="../architecture-overview/" %}
+[architecture-overview](../architecture-overview/)
 {% endcontent-ref %}
 
 {% content-ref url="../faqs-and-troubleshooting.md" %}
