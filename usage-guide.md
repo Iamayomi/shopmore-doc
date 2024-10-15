@@ -32,7 +32,6 @@ Response body
 {
     "status": "success",
     "message": "User sign up successfully",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzI1NDE2MTI3LCJleHAiOjE3MzMxOTIxMjd9.P3bCCa6MU8AA9eioa_2D447fj49ewYFgNV_ZJKXn3RY",
     "data": {
         "User": {
             "active": true,
@@ -43,8 +42,6 @@ Response body
             "userCreatedAt": "2024-09-04T02:15:15.928Z",
             "id": 1,
             "email": "test@gmail.com",
-            "password": "$2a$10$3BIbaDrw2dUN2T29c9Aw8uaEhTeOt58gznmmuDyk/7/y9gp96i5oG",
-            "phoneNumber": "080900974006",
             "acceptedTerms": true,
             "username": "test_0",
             "gender": "male",
@@ -80,9 +77,7 @@ Response Body
 {
     "status": "success",
     "message": "User sign up successfully",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzI1NDE2MTI3LCJleHAiOjE3MzMxOTIxMjd9.P3bCCa6MU8AA9eioa_2D447fj49ewYFgNV_ZJKXn3RY",
-    "data": {
-        "User": {
+        "user": {
             "active": true,
             "role": "user",
             "otpExpiry": null,
@@ -91,8 +86,6 @@ Response Body
             "userCreatedAt": "2024-09-04T02:15:15.928Z",
             "id": 1,
             "email": "test@gmail.com",
-            "password": "$2a$10$3BIbaDrw2dUN2T29c9Aw8uaEhTeOt58gznmmuDyk/7/y9gp96i5oG",
-            "phoneNumber": "080900974006",
             "acceptedTerms": true,
             "username": "test_0",
             "gender": "male",
@@ -173,7 +166,7 @@ GET /api/v1/products/1/get-product
 
 Response Body
 
-```
+```json
  "status": "SUCCESS",
     "data": {
         "products":{

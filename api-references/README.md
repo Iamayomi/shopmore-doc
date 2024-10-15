@@ -1,57 +1,25 @@
-# API REFERENCES
+# API References
 
-```bash
-Authorization: Bearer <YOUR_API_KEY>
-```
+### **Introduction to the API References**
 
-**Endpoints**
+Shopmore E-commerce API is a powerful tool designed to facilitate seamless integration with our e-commerce platform. It provides developers with a comprehensive set of endpoints and methods to access and manipulate various aspects of the platform, including products, orders, customers, and more. By utilizing this API, you can build custom applications, integrate with external systems, and automate tasks to enhance your e-commerce operations.
 
-* User  Endpoints
+**Key Features:**
 
-<table><thead><tr><th width="410"></th><th></th></tr></thead><tbody><tr><td>POST api/v1/auth/register</td><td>create new user</td></tr><tr><td>POST api/v1/auth/signin</td><td>user login in</td></tr><tr><td>POST api/v1/auth/{ID}/verify-email</td><td>user verify email</td></tr><tr><td>POST api/v1/auth/reset-password</td><td>user reset password</td></tr><tr><td>POST api/v1/auth/verify-password-reset-code</td><td>user verify password reset</td></tr><tr><td>POST api/v1/auth/{ID}/verify-phone</td><td>user verify phone</td></tr><tr><td>PATCH api/v1/auth/reset-password</td><td>user reset password </td></tr><tr><td>POST api/v1/auth/forget-password</td><td>user forget password</td></tr><tr><td>GET api/v1/users/{ID}getUser-profile</td><td>get user profile</td></tr><tr><td>POST api/v1/users/change-password</td><td>user change password</td></tr><tr><td>PATCH api/v1/users/update-me</td><td>update my profile</td></tr><tr><td>PATCH api/v1/users/delete-myAccount</td><td>user delete my password</td></tr></tbody></table>
+* **Product Management:** Create, update, and delete products, including details such as name, description, price, and inventory.
+* **Order Processing:** Manage orders throughout the lifecycle, from creation and fulfillment to shipping and returns.
+* **Customer Management:** Create, update, and retrieve customer information, including addresses, contact details, and order history.
+* **Payment Processing:** Integrate with various payment gateways to handle transactions securely.
+* **Shipping and Fulfillment:** Manage shipping options, calculate shipping costs, and track order shipments.
 
+**Target Audience:**
 
+The API is primarily intended for developers and businesses looking to:
 
-* Product Endpoints
+* Build custom e-commerce applications or integrations
+* Automate tasks and workflows within the e-commerce platform
+* Access and analyze e-commerce data for reporting and analytics
 
-|                                           |                    |
-| ----------------------------------------- | ------------------ |
-| GET api/v1/auth/products                  | lists all products |
-| GET api/v1/auth/products/{ID}/get-product | get a product      |
+**Getting Started:**
 
-* Cart&#x20;
-
-|                                         |                     |
-| --------------------------------------- | ------------------- |
-| POST api/v1/auth/carts/{ID}/add-to-cart | add product to cart |
-| GET api/v1/auth/carts/get-cart          | get a cart          |
-| DELETE api/v1/auth/carts/remove-cart    | remove  cart        |
-
-
-
-* Review&#x20;
-
-<table><thead><tr><th width="439"></th><th></th></tr></thead><tbody><tr><td>POST api/v1/auth/reviews{ID}/add-review-product</td><td>add review to product</td></tr></tbody></table>
-
-
-
-* Checkout&#x20;
-
-<table><thead><tr><th width="409"></th><th></th></tr></thead><tbody><tr><td>POST api/v1/checkouts/{ID}/checkout-session</td><td>product checkout</td></tr></tbody></table>
-
-
-
-
-
-ERROR CODES
-
-* **400 Bad Request:** The server cannot process the request due to invalid syntax or missing parameters.
-* **401 Unauthorized:** The client is not authenticated.
-* **403 Forbidden:** The client is authenticated but lacks permission to access the resource.
-* **404 Not Found:** The requested resource could not be found.
-* **500 Internal Server Error:** A generic error occurred on the server.
-
-
-
-
-
+To begin using the Shopmore E-commerce API, you'll need to obtain an API key and familiarize yourself with the authentication process. Detailed instructions and documentation are available in the subsequent sections of this reference.

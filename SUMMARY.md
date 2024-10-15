@@ -2,7 +2,7 @@
 
 * [INTRODUCTION](README.md)
   * [Features](readme/features.md)
-  * [Quicks Links](readme/quicks-links.md)
+  * [Quick Links](readme/quick-links.md)
 * [Getting Started](getting-started/README.md)
   * [Prerequisites](getting-started/prerequisites.md)
   * [Installation](getting-started/installation.md)
@@ -11,7 +11,7 @@
   * [Authorization](api-references/authorization.md)
   * [Endpoints](api-references/endpoints.md)
   * [Rate Limiting](api-references/rate-limiting.md)
-  * [Response code](api-references/response-code.md)
+  * [Response Code](api-references/response-code.md)
 * [ Architecture  Overview](architecture-overview/README.md)
   * [Database Schema](architecture-overview/database-schema.md)
   * [Third-party Integration](architecture-overview/third-party-integration.md)
