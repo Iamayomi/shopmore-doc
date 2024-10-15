@@ -1,6 +1,10 @@
 # Usage Guide
 
-####
+{% hint style="info" %}
+Read carefully before start&#x20;
+{% endhint %}
+
+
 
 This document provides detailed information about the API endpoints and their usage for interacting with shopmore e-commerce Resful API. The API is designed to allow developers to build custom applications and integrations with our platform.
 
@@ -105,11 +109,15 @@ Product
 
 * To retrieve all products
 
-Request Body
+Request Header
 
 ```bash
 GET /api/v1/products
 ```
+
+Request Params
+
+<table><thead><tr><th width="134">params</th><th width="160">value</th><th>Uses</th></tr></thead><tbody><tr><td>rating[lt]</td><td>4</td><td><p></p><p>Search products query by rating E.g gte, lt, gt, lte.</p></td></tr><tr><td>sort</td><td>-price, name, quantity</td><td>Sort products query by -price is DESC, name is ASC is also set to default</td></tr><tr><td>limit</td><td><br>name, price,  imageUrl</td><td>Limiting the attribute of products</td></tr><tr><td>price</td><td>22.3</td><td><p></p><p>Search products query by price E.g 55.99, 22.3</p></td></tr><tr><td>category</td><td>Electronics</td><td><p></p><p>Search products query by category E.g Clothing,<br>Electronics</p><p><br></p></td></tr><tr><td>name</td><td>WD 2TB Elements Portable</td><td><p>Search by the name of the products</p><p></p></td></tr><tr><td>subcategory</td><td>Accessories</td><td><p></p><p>Search products query by subcategory E.g Men's<br>Computers and Laptops<br>Accessories</p></td></tr><tr><td>page</td><td>3</td><td>Search by product pagination </td></tr></tbody></table>
 
 
 
@@ -158,7 +166,7 @@ Product
 
 * Description To get a  product by id&#x20;
 
-Request Body
+Request Header
 
 ```bash
 GET /api/v1/products/1/get-product

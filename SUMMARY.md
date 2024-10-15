@@ -1,6 +1,6 @@
 # Table of contents
 
-* [INTRODUCTION](README.md)
+* [HOME](README.md)
   * [Features](readme/features.md)
   * [Quick Links](readme/quick-links.md)
 * [Getting Started](getting-started/README.md)
